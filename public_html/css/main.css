@@ -1,0 +1,250 @@
+* {
+    box-size:border-box;
+    margin:0;
+    padding:0;
+
+}
+body{
+    overflow-x:hidden;
+}
+header nav {
+        background:transparent;
+        z-index:1;
+}
+
+header nav ul {
+    padding:10px;
+}
+header nav ul li {
+    display:inline-block;
+    list-style:none;
+
+} 
+header nav ul li a {
+    text-decoration:none;
+    padding:10px 25px;
+    color:#666;
+    font-family:arial;
+    position: relative;
+text-transform:uppercase;
+transition:0.3s;
+
+
+}
+
+header nav ul li a:before {
+    content:"";
+    border-bottom:1px solid rgb(209, 17, 17);
+    position:absolute;
+    width: 90px;
+    height: 30px;
+    opacity: 0.0;
+    transition:0.6s;
+   
+}
+header nav ul li a:hover:before{
+    
+opacity: 1;
+}
+header nav ul li a:hover {
+    color:#333;
+
+    font-size:19px;
+    
+}
+
+header nav ul li:last-child{
+    float:right;
+}
+header {
+    height:500px;
+    background:url(../images/head1.jpg) fixed no-repeat;
+    background-size:cover;
+    position:relative;
+    z-index:2;
+    background-attachment: scroll;
+
+}
+header:before {
+    content:'';
+    width:100%;
+    height:100%;
+    background:gray;
+    position:absolute;
+    opacity:0.4;
+    z-index:-1;
+}
+header .the-head-image {
+    width:100%;
+}
+header .the-head-image h1 {
+    font-family:arial;
+    font-weight:lighter;
+    letter-spacing:8px;
+    font-size:36px;
+    margin:0px auto;
+    margin-top:170px;
+    width:400px;
+    text-align:center;
+    padding:7px 0;
+    background:#2b2b2b;;
+    color:white;
+    text-shadow: 2px 2px 4px;
+    position: relative;
+    
+}
+header .the-head-image h1:before{
+    font-size:36px;
+    position: absolute;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    color: #000;
+    content:attr(data-title);
+    transition: 0.9s;
+    
+}
+header .the-head-image h1:hover:before{
+    width: 100%;
+}
+h3{
+    text-align: center;
+    margin-top: 5%;
+}
+.pop{
+    text-align: center;
+    margin-top: 2%;
+}
+.words
+    {
+      text-align: center;
+      color: #777;
+     
+    }
+.firstpic
+{
+    float: left;
+    width: 50%;
+    margin-left: 27%;
+}
+    
+.firstpic span {
+    display: block;
+    margin: 18px;
+    margin-left: 15%;
+    margin-bottom: 4%;
+    
+   }
+   .secoundwords{
+       float: right;
+       width: 50%;
+       margin-top: -17%;
+   }
+   .lol{
+       text-align: center;
+       margin-top: 20%;
+   }
+   .seicon{
+       margin-left:400px;
+       width: 50%;
+       margin-top: 7%;
+       letter-spacing:17px;
+
+   }
+   .bar {
+    background: rgb(156, 146, 146);
+    height: 25px;
+    width: 720px;
+    color: honeydew;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+   .bar2{
+    background: rgb(41, 40, 40);
+    height: 25px;
+    width: 81%;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+       
+        .bar span{
+            position: absolute;
+            left: 50%;
+            top: 2px;
+            z-index: 2;
+            color: white;
+        }
+   .sebar{
+    margin-top: 3%;}
+    
+   .bar4{
+    background: rgb(189, 185, 185);
+    margin-left: 815px;
+    height: 25px;
+    width: 400px;
+    margin-top: -25px;
+    position: relative;
+
+}
+
+   .bar3{
+    background: rgb(27, 27, 27);
+    height: 25px;
+    width: 615px;
+    margin-left: 25%;
+    color: honeydew;
+    text-align:center;
+    font-weight: 30px;
+    position:absolute;
+}
+.soicon{
+    margin-left:400px;
+    width: 50%;
+    margin-top: 2%;
+    letter-spacing:17px;}
+
+    .back{
+
+    background-color: rgb(36, 34, 34);
+    width: 100%;
+    height: 100px;
+    margin-top: 10%;
+    }
+        .back ul {
+            padding:10px;
+        }
+        .back ul li {
+                display: inline-block;
+                list-style: none;
+                width: 20%;
+                margin: 0px 88px;
+            }
+        
+        } 
+        .back ul li a {
+            text-decoration:none;
+            padding:10px 25px;
+            color:#666;
+            font-family:arial;
+        }
+
+        .imgpop{
+            border-radius: 5% 3%;
+
+        }
+        .texttwo{
+
+
+        }
+      .bar4 span{
+          position: absolute;
+          top: 0;
+          left: 0;
+          color: white;
+          
+      }  
+     
